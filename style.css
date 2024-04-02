@@ -91,22 +91,27 @@ h2 {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-content {
+    width: 600px;
+    padding: 100px 0;
+    margin : auto;
+}
+
 blockquote {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
-    margin: 0;
     padding: 0;
-    align-self: center;
+    margin: 0;
 }
 
-.quote {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.quote-content > p {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.quote > p {
-    text-align: end;
-}
