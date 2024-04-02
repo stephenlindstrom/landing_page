@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    width:
 }
 
 .header {
@@ -8,6 +7,7 @@ body {
 }
 
 .header-content {
+    margin: 0;
     padding: 0 100px 100px 100px;
 }
 
@@ -27,7 +27,11 @@ body {
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+img {
+    flex-shrink: 0;
 }
 
 h1 {
@@ -49,4 +53,60 @@ p {
 button {
     background-color: #3882F6;
     margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.content {
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.image-with-text > img {
+    height: 150px;
+    width: 150px;
+}
+
+.image-with-text > p {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote > p {
+    text-align: end;
 }
